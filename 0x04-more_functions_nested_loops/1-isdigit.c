@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
-* _isdigit(c) - check if c is a digit.
-*@c: input for digit
-* Return: 1 if its uppercase. 0 if not
+* _isdigit - check if c is a digit.
+*
+* @c: input for digit
+*
+* Return: 1 if it is a digit. 0 if not
 */
 
 int _isdigit(int c)
