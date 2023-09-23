@@ -5,7 +5,7 @@
  *
  * @str: is a string .
  *
- * Return: always 0
+ * Return: point to str
  */
 
 char *string_toupper(char *str)
@@ -18,5 +18,5 @@ while (str[i] != '\0')
 		str[i] = str[i] - 32;
 	i++;
 }
-return (0);
+return str;
 }
