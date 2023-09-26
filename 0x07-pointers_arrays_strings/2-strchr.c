@@ -17,7 +17,7 @@ int i;
 for (i = 0; s[i] != '\0'; )
 {
 	if (s[i] == c)
-		return (&s[i]);
+		return (s + i);
 	i++;
 }
 return (NULL);
