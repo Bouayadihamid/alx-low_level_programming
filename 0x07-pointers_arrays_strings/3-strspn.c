@@ -17,11 +17,11 @@ int i = 0;
 
 for (; s[count] != '\0'; count++)
 {
-for (; accept[i] != s[count]; i++)
-{
-	if (s[count] == '\0')
-		return (count);
-}
+	for (; accept[i] != s[count]; i++)
+	{
+		if (accept[i] == '\0')
+			return (count);
+	}
 }
 return (count);
 }
