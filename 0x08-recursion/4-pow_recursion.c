@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *factorial- is a function that returns the factorial of a given num
+ *_pow_recursion- returns the value of x raised to the power of y
  *
- *@n: is a given num
+ *@x: is a given num
+ *@y: is a given num
  *
  * Return: the factorial
  */
