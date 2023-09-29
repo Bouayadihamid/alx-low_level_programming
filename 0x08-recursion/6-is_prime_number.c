@@ -4,6 +4,7 @@
  *is_prime_number- returns 1 if integer is a prime number
  *
  *@n: is a given num
+ *@othern: other number
  *
  * Return: returns 1 or 0
  */
