@@ -12,15 +12,19 @@
 
 char *_strdup(char *str)
 {
-	unsigned int i;
+	unsigned int i, len;
+	char *n;
 
-	char *n = (char *)malloc(strlen(str) * sizeof(char));
+	len = strlen(str) + 1;
+	if (str == NULL)
+		return (NULL);
+	n = (char *)malloc(len * sizeof(char));
 
-	if (str == NULL || n < str)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i <= strlen(str); i++)
+	for (i = 0; i < strlen(str); i++)
 	{
 		n[i] = str[i];
 	}
