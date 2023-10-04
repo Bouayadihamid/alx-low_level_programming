@@ -31,9 +31,14 @@ c = (int **)malloc(height * sizeof(int));
 		c[i] = (int *)malloc(width * sizeof(int));
 		if (c[i] == NULL)
 		{
+			for (j = 0; j < width; j++)
+			{
+				free(c[j]);
+			}
+			free(c);
 			return (NULL);
 		}
-		for (j = 0; j < width; j++)
+		for (j = 0; j <= height; j++)
 		{
 			c[i][j] = 0;
 		}
