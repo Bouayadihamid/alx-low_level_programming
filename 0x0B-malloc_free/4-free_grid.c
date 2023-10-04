@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *free_frid- is a function that frees a grid
+ *free_grid- is a function that frees a grid
  *
  *@grid: integer
  *@height: integer
