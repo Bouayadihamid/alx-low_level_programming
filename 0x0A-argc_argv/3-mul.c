@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "maim.h"
 
 /**
  *main- is the main function
