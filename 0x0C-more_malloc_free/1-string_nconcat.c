@@ -26,14 +26,8 @@ if (s2 == NULL)
 {
 	s2 = "";
 }
-for (i = 0; s1[i] != '\0'; i++)
-{
-	len1 = i++;
-}
-for (i = 0; s2[i] != '\0'; i++)
-{
-	len2 = i++;
-}
+len1 = strlen(s1);
+len2 = strlen(s2);
 if (n >= len2)
 {
 	n = len2;
@@ -50,8 +44,9 @@ for (i = 0; s1[i] != '\0'; i++)
 }
 for (j = 0; s2[j] != '\0' && j < n; j++)
 {
-	ptr[i + j] = s2[j];
+	ptr[i] = s2[j];
+	i++;
 }
-ptr [i + j] = '\0';
+ptr [i] = '\0';
 return (ptr);
 }
