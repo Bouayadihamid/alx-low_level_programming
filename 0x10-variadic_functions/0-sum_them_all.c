@@ -21,7 +21,7 @@ for (i = 0; i < n; i++)
 {
 	int num = va_arg(numbers, int);
 
-	sum = sum + num; /* sum += num */
+	sum = sum + num;
 }
 va_end(numbers);
 return (sum);
