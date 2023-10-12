@@ -4,6 +4,7 @@
  *sum_them_all- is a function that sum
  *
  *@n: is the nbr of counts
+ *@...: the integer to sum
  *
  *Return: the value of sum
  */
@@ -21,7 +22,7 @@ for (i = 0; i < n; i++)
 {
 	int num = va_arg(numbers, int);
 
-	sum = sum + num;
+	sum += num;
 }
 va_end(numbers);
 return (sum);
