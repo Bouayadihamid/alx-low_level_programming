@@ -18,12 +18,13 @@ unsigned int i;
 if (n == 0)
 	return (0);
 va_start(numbers, n);
-for (i = 0; i < n; i++)
+for (i = n; i > 0; i--)
 {
 	int num = va_arg(numbers, int);
 
 	sum += num;
 }
+
 va_end(numbers);
 return (sum);
 }
