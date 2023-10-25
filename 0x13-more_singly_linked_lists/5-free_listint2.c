@@ -3,7 +3,7 @@
 /**
  * free_listint2 - frees list
  * @head: ptr
- * 
+ *
  * Return: void
  */
 
