@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <unist.h>
+#include <unistid.h>
 #include <fcntl.h>
 #include <stdlib.h>
 #include <stdio.h>
