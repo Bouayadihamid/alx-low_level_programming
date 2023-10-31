@@ -14,7 +14,7 @@
  * Return: 1 or 0
  */
 
-(int ac, char **av)
+int main(int ac, char **av)
 {
 	ssize_t b;
 	char buf[READ_BUF_SIZE];
