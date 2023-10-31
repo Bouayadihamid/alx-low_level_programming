@@ -9,6 +9,7 @@
 int _strlen(char *s)
 {
 	int i = 0;
+
 	if (!s)
 		return (0);
 	while (*s++)
@@ -17,7 +18,7 @@ int _strlen(char *s)
 }
 
 /**
- * append_text_to_file
+ * append_text_to_file - append text to file
  * @filename: ptr
  * @text_content: ptr
  *
@@ -28,6 +29,7 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd;
 	ssize_t bytes, len;
+
 	bytes = 0;
 	len = _strlen(text_content);
 
