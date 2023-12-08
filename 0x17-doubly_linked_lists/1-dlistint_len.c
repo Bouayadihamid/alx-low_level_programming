@@ -5,7 +5,7 @@
  * @h: the head node address
  *
  * Return: size of list
- * */
+ */
 
 size_t dlistint_len(const dlistint_t *h)
 {
