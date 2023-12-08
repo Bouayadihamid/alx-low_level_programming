@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - adds head
+ * add_dnodeint_end - adds head
  * @head: ptr to the head
  * @n: new node
  *
  * Return: ptr to new node or NULL
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new = malloc(sizeof(dlistint_t));
 
